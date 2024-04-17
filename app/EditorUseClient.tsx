@@ -58,7 +58,6 @@ function CodeHighlightingPlugin() {
 }
 
 export default function App() {
-  console.log('App');
   return (
     <LexicalComposer initialConfig={editorConfig}>
       <div className="editor-container">
